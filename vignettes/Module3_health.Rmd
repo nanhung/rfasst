@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-The functions in this module estimate adverse health effects attributable to fine particulate matter (PM2.5) and ozone (O3; M6M) exposure, measured as premature mortalities, years of life lost (YLLs), and disability adjusted life years (DALYs). The following code shows as an example, the functions to estimate premature mortalities attributable to PM2.5 and the DALYs associated with ozone exposure (M6M).All the functions associated to this module can be found in the [References](https://jgcri.github.io/rfasst/reference/index.html) page. 
+The functions in this module estimate adverse health effects attributable to fine particulate matter (PM2.5) and ozone (O3; M6M) exposure, measured as premature mortalities, years of life lost (YLLs), and disability adjusted life years (DALYs). The following code shows as an example, the functions to estimate premature mortalities attributable to PM2.5 and the DALYs associated with ozone exposure (M6M). All the functions associated to this module can be found in the [References](https://jgcri.github.io/rfasst/reference/index.html) page. 
 
 
 ```{r setup_mort, eval = F}
