@@ -75,7 +75,7 @@ library(magrittr)
 
      m3_get_mort_o3_ecoloss(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
 
-     m3_get_yll_o3_Ecoloss(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
+     m3_get_yll_o3_ecoloss(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
 
   # To save this data by TM5-FASST region in year 2050 as dataframes:
 
