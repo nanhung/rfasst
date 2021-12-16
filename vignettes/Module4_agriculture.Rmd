@@ -59,8 +59,10 @@ library(magrittr)
   # To write the some outputs as csv files into the corresponding output folder:
 
     # Relative yield losses.
-       Using AOT40 as O3 exposure indicator: m4_get_ryl_aot40(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
-       Using Mi as O3 exposure indicator: m4_get_ryl_mi(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
+       # Using AOT40 as O3 exposure indicator: 
+       m4_get_ryl_aot40(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
+       # Using Mi as O3 exposure indicator: 
+       m4_get_ryl_mi(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
 
     # Production losses (includes losses using both AOT40 and Mi).
        m4_get_prod_loss(db_path,query_path,db_name,prj_name,scen_name,queries,saveOutput=T, map=F) 
